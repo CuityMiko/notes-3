@@ -51,11 +51,10 @@
 * 2.6 安装Jexus完成后，添加80端口到白名单中（最好关闭防火墙）     
        * 添加：sbin/iptables -I INPUT -p tcp --dport 80 -j ACCEPT 
        * 保存：iptables-save  
-        //低版本使用 /etc/rc.d/init.d/iptables save 保存
-        
+        //低版本使用 /etc/rc.d/init.d/iptables save 保存     
         或者
-	 * 停止firewall （CentOS 7防火墙命令）： systemctl stop firewalld.service
-	* 禁止firewall开机启动：systemctl disable firewalld.service
+       * 停止firewall （CentOS 7防火墙命令）： systemctl stop firewalld.service
+       * 禁止firewall开机启动：systemctl disable firewalld.service
  
 ###3 其他
 * 以上所有的安装都用root身份；
