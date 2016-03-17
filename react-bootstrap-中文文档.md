@@ -1,4 +1,4 @@
-React-Bootstrap官网：[react-bootstrap.github.io](http://react-bootstrap.github.io/)
+更多使用请参见React-Bootstrap官网：[react-bootstrap.github.io](http://react-bootstrap.github.io/)
 
 ---
 
@@ -104,6 +104,31 @@ define(['react-bootstrap'], function(ReactBootstrap) { var Alert = ReactBootstra
 
 - Button tags         
 当给Button添加 `href` 属性时，按钮渲染到HTML DOM元素上时，会生成 `<a />` 标签，否则生成  `<button />` 标签        
+
+
+### 3.2 Button groups[ButtonGroup, ButtonToolbar]     
+- Basic example      
+使用 `<ButtonGroup />` 组件包含 `<Button />`       
+```sh
+<ButtonGroup>
+    <Button>Left</Button>
+    <Button>Middle</Button>
+    <Button>Right</Button>
+  </ButtonGroup>
+```          
+- Button toolbar        
+使用 `<ButtonToolbar />` 组件标签        
+```sh
+<ButtonToolbar>
+    <ButtonGroup>
+      <Button>button</Button>
+    </ButtonGroup>
+  </ButtonToolbar>
+```               
+- Sizing        
+`<ButtonGroup />` 组件添加 `bsSize` 属性         
+        
+### 3.3 Dropdowns [DropdownButton, SplitButton, Dropdown]                
 
 
 
