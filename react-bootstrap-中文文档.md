@@ -130,5 +130,38 @@ define(['react-bootstrap'], function(ReactBootstrap) { var Alert = ReactBootstra
         
 ### 3.3 Dropdowns [DropdownButton, SplitButton, Dropdown]                
 
+- Single button dropdowns          
+创建一个dropdown button可以使用 `<DropdownButton />` 组件
+```sh
+<DropdownButton bsStyle={title.toLowerCase()} title={title} key={i} id={`dropdown-basic-${i}`}>
+      <MenuItem eventKey="1">Action</MenuItem>
+      <MenuItem eventKey="2">Another action</MenuItem>
+      <MenuItem eventKey="3" active>Active Item</MenuItem>
+      <MenuItem divider />
+      <MenuItem eventKey="4">Separated link</MenuItem>
+</DropdownButton>
+```          
+- Split button dropdowns        
+同样的，创建一个split button dropdowns可以使用 `<SplitButton />` 组件      
+```sh
+<SplitButton bsStyle={title.toLowerCase()} title={title} key={i} id={`split-button-basic-${i}`}>
+      <MenuItem eventKey="1">Action</MenuItem>
+      <MenuItem eventKey="2">Another action</MenuItem>
+      <MenuItem eventKey="3">Something else here</MenuItem>
+      <MenuItem divider />
+      <MenuItem eventKey="4">Separated link</MenuItem>
+</SplitButton>
+```          
+- Sizing      
+与 button 的sized设置一样，可以设置 `bsSize` 属性        
 
+### 3.4 Menu items[MenuItem]      
+该组件在dropdown组件中代表是一个菜单项，它支持基本的锚属性 `href`, `target`, `title` ，它也支持Bootstrap MenuItem不同的属性：       
+
+-  `header`: 向sections添加header label
+-  `divider`: Adds an horizontal divider between sections
+-  `disabled`: 显示项目为禁用, 并且防止onclick事件
+-  `eventKey`: 传递给回调函数
+-  `onSelect`: 当用户点击时，回调函数会被调用        
+通过这些参数可以使回调函数被回调：`eventKey`，`href`，`target`
 
