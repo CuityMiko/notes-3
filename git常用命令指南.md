@@ -79,9 +79,9 @@
 **git status**                                                *查看当前版本状态（是否修改）*            
 **git rm xxx**                                               *删除文件xxx*                     
 **git rm -r**                                                 *递归删除*      
-**git show dfb02e6e4f2f7b573337763e5c0013802e392818**         # 显示某个提交的详细内容
-**git show HEAD**                                             *显示HEAD提交日志*
-**git show HEAD^**                                            *显示HEAD的父（上一个版本）的提交日志 ^^为上两个版本 ^5为上5个版本*
+**git show dfb02e6e4f2f7b573337763e5c0013802e392818**         *显示某个提交的详细内容*                  
+**git show HEAD**                                             *显示HEAD提交日志*                     
+**git show HEAD^**                                            *显示HEAD的父（上一个版本）的提交日志 ^^为上两个版本 ^5为上5个版本*     
 **git show v2.0**                                                 *显示v2.0的日志及详细内容*            
-**git show-branch                                           *图示当前分支历史*                   
+**git show-branch**                                           *图示当前分支历史*                 
 **git show-branch --all**                                     *图示所有分支历史*                     
