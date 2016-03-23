@@ -1,4 +1,4 @@
-更多使用请参见React-Bootstrap官网：[react-bootstrap.github.io](http://react-bootstrap.github.io/)
+翻译至React-Bootstrap官网：[react-bootstrap.github.io](http://react-bootstrap.github.io/)
 
 ---
 
